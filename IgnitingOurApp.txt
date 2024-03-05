@@ -1,0 +1,63 @@
+Episode 2 Igniting Our App
+
+Npm is not node package manager but everything other than that. All the js packages are included inside it.
+
+We will make our app to use npm init. Most important package in our project is the bundler.
+
+create=react-app command will use webpack bundler and babel is used here.  
+
+We will ignite our app using parcel.
+
+Dependencies are two types: Dev Dependencies and Normal Dependencies. Dev Dependencies are only used for development and not for production. Normal Dependencies are used for both.
+
+npm i -D parcel: Used To Be A Dev Dependency. We usually see ^ or ~ here before the Dependency version. If we have parcel before the version, this will automatically upgrade the version of Dependency and parcel will automatically upgrade the version.
+
+If we have ~ before the version, this will automatically install the major version change from 2.8.1 -> 3.1.0.
+
+package-lock.json: It is the file that locks the version and keeps the record of the each version we will use.
+
+Transitive Dependencies are the Dependencies that will be dependent on other Dependencies.
+
+Each Dependency is having a packages.json file for itself.
+
+Integrity inside the package-lock.json helps in maintaining the same dependency on the production when we deploy pur code.
+
+Put package-lock.json and package.json file on GitHub, we can re-create all of the node modules here.
+
+We will ignite our app using the: npx parcel index.html. Parcel will create the server for us and it has deployed the server on http://localhost:1234.
+
+npx command means that we are executing a package and it will build a development build for our environment.
+
+CDN is not a good way to use react.js because it is a costly operation. So it is better if we have it downloaded it in the form of a package.
+
+We will install react using npm install react. render is a method of ReactDOM. If we want to use the script tag and we want to use the import or exports and this can be done by using the type as module.
+
+ReactDOM is to be imported from "react-dom/client".
+
+We can even fast reload our application by running the application here along with creating the local server. It is doing Hot Module Replacement(HMR). It uses Dev Build and it reloads the application by using the "File Watching Algorithm" that is written in C++.
+
+It is taking really less time because of caching and using faster builds and this is used by parcel cache.
+
+Parcel Also Performs Image Optimization for us. It also performs minification, compress our files and Bundle our files here. React is fast because it is fast but also we have the parcel which is the bundler that makes it even more faster.
+
+Parcel also uses consistent hashing. It will also perform code splitting and differential bundling for us so that our application smoothly and support older browsers as well.
+
+Diagnostic, error handling here is done by the parcel. We can also use https in place of http. Parcel has one of the most of easy documentation with us.
+
+Parcel also performs tree shaking by using the tree shaking algorithm. It will remove unused code for us. Parcel also has lazy mode and it will load the code in the lazy mode.
+
+Parcel creates Different Build for dev and prod builds.
+
+npx parcel build index.html: Remove "main":"App.js": It creates a production ready application. Production build will be build inside dist.
+
+Parcel will minify whol of the code. Cache folder of the files will be based on temporary files. We can put dist and parcel cache files in gitignore file.
+
+Nod_modules on local server and on the GitHub will both will be Different.
+
+browserslist will take an array of browsers and will include the details about the app that will be compatible with the browsers. eg: "browserslist":[
+    "last 2 Chrome versions"
+].
+
+It will definitely work with chrome versions. We can even give country specific details here. We have made a production ready ourselves just so similar to the create-react-app.
+
+Parcel will minify whole of the code and this will basically make the code workout.
