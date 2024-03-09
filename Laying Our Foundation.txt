@@ -1,0 +1,45 @@
+Scripts will tell us about how to run the project there in the environment. We can run our application by using the scripts in our project.
+
+When we render the React element (Object) and then it becomes the html element.
+
+Everything will be created inside the root itself. After everything react is itself is JavaScript.
+
+Anytime we can include a text: "Not Rendered", so we basically show it to tell if any error or a bug may occur in the system, so we include the things inside its root.
+
+JSX is JSX or HTML Like syntax in React JS. It looks like HTML like or XML like.
+
+Even before the code goes to the browser, the code is transpiled to JavaScript before it reaches to the browser. Transpiling is also managed by Parcel. Babel is Transpiling our JSX code to JavaScript. JSX code in the background gets converted to the React.createElement and then it is converted to the ReactElement-JS Object. This is then converted to the HTMLElement.
+
+We use className instead of class. We can wrap the JSX code inside the round brackets.
+
+React Element:
+const Head = (
+    <></>
+)
+
+Components In React:
+Normal JavaScript function. It returns a react element. It can return multiple react elements by nesting one Component inside other Component.
+
+Component:
+const Header = ()=> {
+    return <></>;
+}
+
+or
+
+const Header1 = ()=> (
+    <></>
+)
+
+Two types of React Components:
+
+1. Functional Component
+2. Class Based Component
+
+Element will be rendered using root.render(element). Component will be rendered using root.render(<Component/>).
+
+Component composition is defined as the composition of one or more components. We can also include the element inside the component by using the {element} inside our component.
+
+JSX Takes care of these injection errors and tries and JSX will escape the Cross Site Scripting. We can also call component by using the {Title()} where Title is a component as it is a function itself.
+
+JSX Code is making our code more readable here itself.
