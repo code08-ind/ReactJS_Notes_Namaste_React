@@ -1,0 +1,7 @@
+Props are the properties that we want to pass dynamically to the project. Props are just normal arguments to a function. Passing a prop to a function is just like passing a argument to the function.
+
+Config Driven UI: When we create the UI depending on the configuration at the UI itself, where we can try to result into dynamic UI depending on the data from the backend.
+
+We will use map, filter and reduce a lot in the form of functional programming in react.js. We use keys in React, as React will render only that particular element with that id and this will allow them to deal with that element differently and renders only that specific element if something is added here. We should write a key when we write about the map and to uniquely identify the element in the map.
+
+React.js says that we must not take indexes as the keys in the map as the order of items can change. Index is used as a key is an anti pattern. If we don't have a unique id, so we can take the index into the consideration.
