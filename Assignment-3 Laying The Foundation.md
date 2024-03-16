@@ -1,5 +1,3 @@
-Sure, here are the answers to your questions:
-
 1. **What is JSX?**
    JSX stands for JavaScript XML. It is a syntax extension for JavaScript which allows developers to write HTML-like code within JavaScript. JSX makes it easier to write and visualize the structure of UI components, especially in React applications. JSX gets compiled into regular JavaScript functions by tools like Babel before it gets executed in the browser.
 
