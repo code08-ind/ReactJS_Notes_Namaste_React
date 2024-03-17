@@ -23,3 +23,9 @@ If an element is changed inside the Component, the whole component is re-rendere
 Reconciliation Concept makes the React fast by rendering the components run fast.
 
 Once we use the search functionality, we can use this by using the filtering the code and also once we have filtered the data, so again we need a copy here itself by re-changing the data by making a copy of the res.data and displaying it again once we have filtered the data.
+
+API Calls can be found out from the Fetch/XHR calls.
+
+Swiggy is using the Lazy Loading in its features here itself.
+
+Getting Rid Of CORS Plugin. There is a website named corsproxy and this will help us to bypass the cors error. We need to copy the corsproxy url and then paste it before the api url we will be using in.
