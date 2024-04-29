@@ -50,7 +50,7 @@ We should also mention if we have won a employee of quarter or employee of the m
 
 The Resume should be only one page long.
 
-### INTERVIEWES:
+### INTERVIEWS:
 
 Introduction Prepare It
 
